@@ -1,0 +1,5 @@
+// Вычислить n-ое треугольного число (сумма чисел от 1 до n),
+
+public static int getNthTriangleNumber(int n) {
+    return (n * (n + 1)) / 2;
+}
